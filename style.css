@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(20, 20, 20);
+  font-family: "Open Sans", sans-serif;
+  color: aliceblue;
+}
+
+.heroImage img {
+  width: 100%;
+  opacity: 0.4;
+}
+
+ul {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  z-index: 9;
+}
+ul {
+  list-style: none;
+  display: flex;
+  margin: 10px auto;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.menu a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.click {
+  color: aliceblue;
+}
+
+.titel {
+  text-align: center;
+  position: absolute;
+  z-index: 9;
+  top: 200px;
+  left: 0;
+  right: 0;
+}
+
+.titel h1 {
+  font-size: 5vw;
+}
+
+/* d */
+
+.explor {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.explor h2 {
+  font-size: 20px;
+}
+
+.explor p {
+  font-size: 10px;
+}
+
+/* Content */
+
+.container {
+  width: 70%;
+  margin: 35px auto;
+  text-align: center;
+}
+
+.titelExplorer h2 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.titelExplorer p {
+  font-size: 10px;
+}
+
+.imageExplorer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.imageExplorer .image img {
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+.titelJournal h2 {
+  margin-top: 200px;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.titelJournal p {
+  font-size: 10px;
+}
+
+.imageJournal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  margin-bottom: 200px;
+}
+
+.imageJournal .image img {
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+.imageJournal .image h4 {
+  font-size: 13px;
+}
+
+.imageJournal .image h3 {
+  font-size: 18px;
+  margin: 5px;
+}
+
+.imageJournal .image p {
+  font-size: 13px;
+  margin: 5px;
+}
+
+/* Akhir Conten */
+
+/* Image Footer */
+
+.imageFooter img {
+  width: 100%;
+  filter: blur();
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  height: 35px;
+}
+.kaki {
+  width: 80%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  line-height: 35px;
+  margin: auto;
+  font-size: 12px;
+}
+
+.kaki li a {
+  text-decoration: none;
+  color: white;
+}
